@@ -7,15 +7,24 @@ The final outcome results in running a git pre-commit hook that prettifies all s
 
 * Step 1:
 
-Install husky as a dev-dependency `npm install husky --save-dev`
+Install husky as a dev-dependency 
+```
+npm install husky --save-dev
+```
 
 * Step 2:
 
-Install prettier and pretty-quick `npm install prettier pretty-quick --save-dev`
+Install prettier and pretty-quick 
+```
+npm install prettier pretty-quick --save-dev
+```
 
 * Step 3:
 
-Enable git hooks `npx husky install`
+Enable git hooks 
+```
+npx husky install
+```
 
 * Step 4:
 
