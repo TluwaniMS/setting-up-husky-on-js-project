@@ -61,5 +61,5 @@ Setup the prettier options. In the projects root directory create a .prettierrc 
 
 Setup the pre-commit hook to run the prettier file formatting script
 ```
-npx husky add .husky/pre-commit `npm run format-files`
+npx husky add .husky/pre-commit 'npm run format-files'
 ```
