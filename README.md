@@ -1,4 +1,4 @@
-# setting-up-huaky-on-js-project
+# setting-up-husky-on-js-project
 
 # About repository:
 
@@ -55,4 +55,11 @@ Setup the prettier options. In the projects root directory create a .prettierrc 
     "trailingComma": "es5",
     "printWidth": 80
 }
+```
+
+* Step 7:
+
+Setup the pre-commit hook to run the prettier file formatting script
+```
+npx husky add .husky/pre-commit `npm run format-files`
 ```
